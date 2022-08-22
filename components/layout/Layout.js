@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Aside from "../aside/Aside";
 import Header from "../header/Header";
+import Footer from "../footer/Footer";
 
 export default function Layout({ title, keywords, description, children }) {
  return (
@@ -14,6 +15,7 @@ export default function Layout({ title, keywords, description, children }) {
    <Aside />
    <Header />
    <div className="container">{children}</div>
+   <Footer />
   </>
  );
 }
