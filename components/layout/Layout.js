@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Aside from "../aside/Aside";
 import Header from "../header/Header";
+import Container from "../container/Container";
 import Footer from "../footer/Footer";
 
 export default function Layout({ title, keywords, description, children }) {
@@ -14,7 +15,7 @@ export default function Layout({ title, keywords, description, children }) {
 
    <Aside />
    <Header />
-   <div className="container">{children}</div>
+   <Container />
    <Footer />
   </>
  );
@@ -22,6 +23,6 @@ export default function Layout({ title, keywords, description, children }) {
 
 Layout.defaultProps = {
  title: "Ordre & Chaos | Site spécialisé sur les JCE Coopératifs",
- description: "Find the latest DJ and other musical events",
+ description: "Les dernières actualités sur le JCE Marvel Champions",
  keywords: "lcg, marvel",
 };

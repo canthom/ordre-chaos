@@ -48,6 +48,11 @@ export default function Footer() {
 
    <div className="footer__bottom">
     <span>&copy; 2022 - Ordre & Chaos. Tous droits réservés.</span>
+
+    <span>
+     Ordre & Chaos est un site amateur et n'est pas soutenu par Fantasy Flight
+     Games ou Asmodee.
+    </span>
     <span>
      Tous les logos et images présents sur ce site sont la propriété de leurs
      marques respectives.
