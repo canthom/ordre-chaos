@@ -48,6 +48,7 @@ export default function Showcase() {
      </h2>
     </div>
    </div>
+   <span />
   </StyledShowcase>
  );
 }
